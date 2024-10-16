@@ -11,9 +11,9 @@ It enables quick and efficient implementation of consistent designs, allowing fo
 git clone https://github.com/your-username/custom-css-framework.git
 
 2. Install SASS:<br>
-Ensure you have Node.js and npm installed.
-If not, download and install them from nodejs.org.
-Once Node.js is installed, install SASS by running the following command in terminal:
+Ensure you have Node.js and npm installed.<br>
+If not, download and install them from nodejs.org.<br>
+Once Node.js is installed, install SASS by running the following command in terminal:<br>
 npm install -g sass
 
 3. Compile SCSS to CSS:<br>
