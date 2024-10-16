@@ -2,20 +2,80 @@
 
 .text-primary {
     color: $primary-color;
-  }
-  
+}
+
 .text-secondary {
     color: $secondary-color;
 }
-  
-.marg {
-    margin: 8px;
+
+.bg-primary {
+    background-color: $primary-color;
 }
-  
-.padd {
-    padding: 16px;
+
+.bg-secondary {
+    background-color: $secondary-color;
 }
-  
+
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.fs-small {
+    font-size: 0.875rem; 
+}
+
+.fs-large {
+    font-size: 1.25rem;
+}
+
+
+.m-1 {
+    margin: 0.5rem;
+}
+
+.m-2 {
+    margin: 1rem;
+}
+
+.m-3 {
+    margin: 1.5rem;
+}
+
+.p-1 {
+    padding: 0.5rem;
+}
+
+.p-2 {
+    padding: 1rem;
+}
+
+.p-3 {
+    padding: 1.5rem;
+}
+
+
 .border-rounded {
     border-radius: $border-radius;
+}
+
+.border-none {
+    border: none;
+}
+
+.border {
+    border: 1px solid $primary-color;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.center {
+    text-align: center;
 }
