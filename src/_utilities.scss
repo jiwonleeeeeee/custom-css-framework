@@ -1,0 +1,21 @@
+// _utilities.scss
+
+.text-primary {
+    color: $primary-color;
+  }
+  
+.text-secondary {
+    color: $secondary-color;
+}
+  
+.marg {
+    margin: 8px;
+}
+  
+.padd {
+    padding: 16px;
+}
+  
+.border-rounded {
+    border-radius: $border-radius;
+}

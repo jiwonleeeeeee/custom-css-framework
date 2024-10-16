@@ -1,0 +1,32 @@
+//1. Primary Button
+.btn-primary {
+    background-color: $primary-color;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: $border-radius;
+    font-family: $font-family;
+    font-size: 16px;
+    cursor: pointer;
+  
+    &:hover {
+      background-color: darken($primary-color, 10%);
+    }
+}
+
+
+//2. Secondary Button
+.btn-secondary {
+    background-color: $secondary-color;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: $border-radius;
+    font-family: $font-family;
+    font-size: 16px;
+    cursor: pointer;
+  
+    &:hover {
+      background-color: lighten($secondary-color, 10%);
+    }
+  }

@@ -1,0 +1,22 @@
+// _tables.scss
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: $font-family;
+}
+  
+th, td {
+    border: 1px solid $secondary-color;
+    padding: 12px;
+    text-align: left;
+}
+  
+th {
+    background-color: $primary-color;
+    color: white;
+}
+  
+td {
+    background-color: lighten($primary-color, 40%);
+}
