@@ -10,9 +10,14 @@ It enables quick and efficient implementation of consistent designs, allowing fo
 1. Clone the repository:
 git clone https://github.com/your-username/custom-css-framework.git
 
-2. Install SASS
+2. Install SASS:
+Ensure you have Node.js and npm installed.
+If not, download and install them from nodejs.org.
+Once Node.js is installed, install SASS by running the following command in terminal:
+npm install -g sass
 
 3. Compile SCSS to CSS:
+Once the SCSS files created, compile them into CSS by running the following command in terminal:
 sass src/custom-css-framework.scss dist/custom-css-framework.css
 
 4. Include the CSS file in HTML:
@@ -34,7 +39,6 @@ sass src/custom-css-framework.scss dist/custom-css-framework.css
 
 5. Background and Text Color:
 `<div class="bg-secondary text-primary">Styled box.</div>`
-
 
 
 ## Customization
