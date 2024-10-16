@@ -1,0 +1,11 @@
+@function lighten-color($color, $amount) {
+    @return lighten($color, $amount);
+  }
+
+  @function spacing($value, $unit: px) {
+    @return #{$value}#{$unit};
+  }
+  
+  @function darken-color($color, $amount) {
+    @return darken($color, $amount);
+  }
