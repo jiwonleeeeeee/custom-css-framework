@@ -27,10 +27,7 @@ sass src/custom-css-framework.scss dist/custom-css-framework.css
 `<button class="btn btn-primary">Primary Button</button>`
 
 3. Forms:
-`<form>
-    `<input type="text" class="form-input" placeholder="Enter text">`
-    `<button type="submit" class="btn btn-secondary">Submit</button>`
-</form>`
+`<form><input type="text" class="form-input" placeholder="Enter text"><button type="submit" class="btn btn-secondary">Submit</button></form>`
 
 4. Margin and Padding:
 `<div class="m-2 p-3">Content goes here.</div>`
