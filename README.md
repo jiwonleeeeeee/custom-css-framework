@@ -16,27 +16,27 @@ git clone https://github.com/your-username/custom-css-framework.git
 sass src/custom-css-framework.scss dist/custom-css-framework.css
 
 4. Include the CSS file in HTML:
-<link rel="stylesheet" href="dist/custom-css-framework.css">
+`<link rel="stylesheet" href="dist/custom-css-framework.css">`
 
 ## Usage Examples
 1. Headings:
-<h1 class="fw-bold text-primary">Heading 1</h1>
-<h2 class="text-secondary">Heading 2</h2>
+`<h1 class="fw-bold text-primary">Heading 1</h1>`
+`<h2 class="text-secondary">Heading 2</h2>`
 
 2. Buttons:
-<button class="btn btn-primary">Primary Button</button>
+`<button class="btn btn-primary">Primary Button</button>`
 
 3. Forms:
-<form>
+`<form>
     <input type="text" class="form-input" placeholder="Enter text">
     <button type="submit" class="btn btn-secondary">Submit</button>
-</form>
+</form>`
 
 4. Margin and Padding:
-<div class="m-2 p-3">Content goes here.</div>
+`<div class="m-2 p-3">Content goes here.</div>`
 
 5. Background and Text Color:
-<div class="bg-secondary text-primary">Styled box.</div>
+`<div class="bg-secondary text-primary">Styled box.</div>`
 
 
 
