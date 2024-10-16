@@ -28,8 +28,8 @@ sass src/custom-css-framework.scss dist/custom-css-framework.css
 
 3. Forms:
 `<form>
-    <input type="text" class="form-input" placeholder="Enter text">
-    <button type="submit" class="btn btn-secondary">Submit</button>
+    `<input type="text" class="form-input" placeholder="Enter text">`
+    `<button type="submit" class="btn btn-secondary">Submit</button>`
 </form>`
 
 4. Margin and Padding:
