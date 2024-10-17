@@ -44,19 +44,19 @@ sass src/custom-css-framework.scss dist/custom-css-framework.css
 (1) lighten-color($color, $amount):<br>
 `.example {
   background-color: lighten-color($primary-color, 20%);
-}`
+}`<br>
 (2) darken-color($color, $amount):<br>
 `.header {
   background-color: darken-color($secondary-color, 15%);
-}`
+}`<br>
 (3) spacing($value, $unit: px):<br>
 `.button {
   padding: spacing(1.5, em);
-}`
+}`<br>
 (4) border-radius($radius): <br>
 `.box {
   border-radius: border-radius(10);
-}`
+}`<br>
 (5) responsive-font-size($base-size, $scale-factor): <br>
 `.p {
   font-size: responsive-font-size(16, 1.5);
