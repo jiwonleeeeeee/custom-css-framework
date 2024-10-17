@@ -1,11 +1,19 @@
 @function lighten-color($color, $amount) {
     @return lighten($color, $amount);
-  }
+}
 
-  @function spacing($value, $unit: px) {
+@function spacing($value, $unit: px) {
     @return #{$value}#{$unit};
-  }
+}
   
-  @function darken-color($color, $amount) {
+@function darken-color($color, $amount) {
     @return darken($color, $amount);
-  }
+}
+
+@function border-radius($radius) {
+  @return #{$radius}px;
+}
+
+@function responsive-font-size($base-size, $scale-factor) {
+  @return $base-size * $scale-factor;
+}
